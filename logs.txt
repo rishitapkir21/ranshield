@@ -1,0 +1,326 @@
+Server Logs
+
+
+(ranshield) C:\Users\Rishikesh\OneDrive\Desktop\ranshield>python server.py
+ * Serving Flask app 'server'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+Press CTRL+C to quit
+127.0.0.1 - - [27/Mar/2026 20:24:34] "GET / HTTP/1.1" 200 -
+[*] Starting analysis for: a7d26deb2f8af2465df8735111eee8bc.apk
+[*] Scanning a7d26deb2f8af2465df8735111eee8bc.apk as apk...
+[*] Waiting for report generation...
+[*] Downloading PDF to reports\a7d26deb2f8af2465df8735111eee8bc.apk_a7d26d.pdf...
+[*] PDF Saved Successfully.
+[*] PDF PARSER: Found score 33/100 on page 2
+[*] Final Score from PDF: 33 | Risk: High
+127.0.0.1 - - [27/Mar/2026 20:24:52] "POST /upload HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 20:27:00] "GET / HTTP/1.1" 200 -
+[*] Starting analysis for: insta followers.apk
+[*] Scanning insta followers.apk as apk...
+[*] Waiting for report generation...
+[*] Downloading PDF to reports\insta followers.apk_51064c.pdf...
+[*] PDF Saved Successfully.
+[*] PDF PARSER: Found score 37/100 on page 2
+[*] Final Score from PDF: 37 | Risk: High
+127.0.0.1 - - [27/Mar/2026 20:27:48] "POST /upload HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 20:59:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 21:00:03] "GET /upload HTTP/1.1" 405 -
+127.0.0.1 - - [27/Mar/2026 21:00:30] "GET /upload HTTP/1.1" 405 -
+127.0.0.1 - - [27/Mar/2026 21:05:44] "GET / HTTP/1.1" 200 -
+
+(ranshield) C:\Users\Rishikesh\OneDrive\Desktop\ranshield>python server.py
+ * Serving Flask app 'server'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+Press CTRL+C to quit
+127.0.0.1 - - [27/Mar/2026 21:31:58] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 21:31:58] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 21:31:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 21:45:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 21:46:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 21:46:02] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2026 21:46:10] "GET /upload HTTP/1.1" 405 -
+127.0.0.1 - - [27/Mar/2026 21:48:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 21:53:33] "GET / HTTP/1.1" 200 -
+[*] Starting analysis for: base.apk
+[*] Scanning base.apk as apk...
+[*] Waiting for report generation...
+[*] Downloading PDF to reports\base.apk_50e1f0.pdf...
+[*] PDF Saved Successfully.
+[*] PDF PARSER: Found score 28/100 on page 2
+[*] Final Score from PDF: 28 | Risk: High
+127.0.0.1 - - [27/Mar/2026 22:32:23] "POST /upload HTTP/1.1" 200 -
+[*] Starting analysis for: base.apk
+[*] Scanning base.apk as apk...
+[*] Waiting for report generation...
+[*] Downloading PDF to reports\base.apk_7edd79.pdf...
+[*] PDF Saved Successfully.
+[*] PDF PARSER: Found score 52/100 on page 2
+[*] Final Score from PDF: 52 | Risk: Medium
+127.0.0.1 - - [27/Mar/2026 22:57:09] "POST /upload HTTP/1.1" 200 -
+
+
+
+MobSF Logs
+
+C:\Users\Rishikesh\Mobile-Security-Framework-MobSF-master>run.bat
+Running MobSF on "0.0.0.0:8000 [::]:8000"
+[INFO] 27/Mar/2026 20:01:38 - Loading User config from: C:/Users/Rishikesh/.MobSF\config.py
+[INFO] 27/Mar/2026 20:24:43 -
+  __  __       _    ____  _____       _  _    ____
+ |  \/  | ___ | |__/ ___||  ___|_   _| || |  | ___|
+ | |\/| |/ _ \| '_ \___ \| |_  \ \ / / || |_ |___ \
+ | |  | | (_) | |_) |__) |  _|  \ V /|__   _| ___) |
+ |_|  |_|\___/|_.__/____/|_|     \_/    |_|(_)____/
+
+[INFO] 27/Mar/2026 20:24:43 - Author: Ajin Abraham | opensecurity.in
+[INFO] 27/Mar/2026 20:24:43 - Mobile Security Framework v4.5.0
+REST API Key: 506c54145f9e3c9aaafd3a7c28f72965fa01d628e10bc92fb9783b9b176ba9dc
+Default Credentials: mobsf/mobsf
+[INFO] 27/Mar/2026 20:24:43 - OS Environment: Windows Windows-11-10.0.26200-SP0
+[INFO] 27/Mar/2026 20:24:43 - Python Version: 3.13.5
+[INFO] 27/Mar/2026 20:24:43 - CPU Cores: 12, Threads: 16, RAM: 15.68 GB
+[INFO] 27/Mar/2026 20:24:43 - MobSF Basic Environment Check
+[WARNING] 27/Mar/2026 20:24:44 - Dynamic Analysis related functions will not work.
+Make sure a Genymotion Android VM/Android Studio Emulator is running before performing Dynamic Analysis.
+[INFO] 27/Mar/2026 20:24:44 - MIME Type: application/octet-stream FILE: a7d26deb2f8af2465df8735111eee8bc.apk
+[INFO] 27/Mar/2026 20:24:44 - Android APK uploaded
+[INFO] 27/Mar/2026 20:24:44 - Scan Hash: a7d26deb2f8af2465df8735111eee8bc
+[INFO] 27/Mar/2026 20:24:44 - Starting Analysis on: a7d26deb2f8af2465df8735111eee8bc.apk
+[INFO] 27/Mar/2026 20:24:44 - Analysis is already Done. Fetching data from the DB...
+[INFO] 27/Mar/2026 20:24:45 - Checking for Update.
+[INFO] 27/Mar/2026 20:24:46 - No updates available.
+[INFO] 27/Mar/2026 20:24:49 - Fetching data from DB for PDF Report Generation (Android)
+[INFO] 27/Mar/2026 20:24:49 - Analysis is already Done. Fetching data from the DB...
+[INFO] 27/Mar/2026 20:24:49 - Analysis is already Done. Fetching data from the DB...
+[INFO] 27/Mar/2026 20:24:50 - Generating PDF report for android apk
+[INFO] 27/Mar/2026 20:27:02 - MIME Type: application/octet-stream FILE: insta_followers.apk
+[INFO] 27/Mar/2026 20:27:02 - Android APK uploaded
+[INFO] 27/Mar/2026 20:27:02 - Scan Hash: 51064cc8676f45813dec4c5a1c1ce150
+[INFO] 27/Mar/2026 20:27:02 - Starting Analysis on: insta_followers.apk
+[INFO] 27/Mar/2026 20:27:02 - Generating Hashes
+[INFO] 27/Mar/2026 20:27:02 - Extracting APK
+[INFO] 27/Mar/2026 20:27:02 - Unzipping
+[INFO] 27/Mar/2026 20:27:03 - Parsing APK with androguard
+[INFO] 27/Mar/2026 20:27:03 - Extracting APK features using aapt/aapt2
+[INFO] 27/Mar/2026 20:27:03 - Getting Hardcoded Certificates/Keystores
+[INFO] 27/Mar/2026 20:27:03 - Getting AndroidManifest.xml from APK
+[INFO] 27/Mar/2026 20:27:03 - Converting AXML to XML with apktool
+[INFO] 27/Mar/2026 20:27:11 - Parsing AndroidManifest.xml
+[INFO] 27/Mar/2026 20:27:11 - Extracting Manifest Data
+[INFO] 27/Mar/2026 20:27:11 - Manifest Analysis Started
+[INFO] 27/Mar/2026 20:27:11 - Performing Static Analysis on: Insta Followers (com.test.accessibility)
+[INFO] 27/Mar/2026 20:27:13 - Fetching Details from Play Store: com.test.accessibility
+[INFO] 27/Mar/2026 20:27:13 - Checking for Malware Permissions
+[INFO] 27/Mar/2026 20:27:13 - Fetching icon path
+[INFO] 27/Mar/2026 20:27:13 - Library Binary Analysis Started
+[INFO] 27/Mar/2026 20:27:13 - Reading Code Signing Certificate
+[INFO] 27/Mar/2026 20:27:13 - Getting Signature Versions
+[INFO] 27/Mar/2026 20:27:14 - Running APKiD 3.0.0
+[INFO] 27/Mar/2026 20:27:18 - Trackers Database is up-to-date
+[INFO] 27/Mar/2026 20:27:18 - Detecting Trackers
+[INFO] 27/Mar/2026 20:27:19 - Decompiling APK to Java with JADX
+[INFO] 27/Mar/2026 20:27:29 - Converting DEX to Smali
+[INFO] 27/Mar/2026 20:27:29 - Converting classes.dex to Smali Code
+[INFO] 27/Mar/2026 20:27:29 - Code Analysis Started on - java_source
+[INFO] 27/Mar/2026 20:27:29 - Reading file contents for SAST
+[INFO] 27/Mar/2026 20:27:29 - Android SBOM Analysis Completed
+[INFO] 27/Mar/2026 20:27:31 - Android SAST Completed
+[INFO] 27/Mar/2026 20:27:31 - Android API Analysis Started
+[INFO] 27/Mar/2026 20:27:32 - Android API Analysis Completed
+[INFO] 27/Mar/2026 20:27:33 - Android Permission Mapping Started
+[INFO] 27/Mar/2026 20:27:34 - Android Permission Mapping Completed
+[INFO] 27/Mar/2026 20:27:34 - Android Behaviour Analysis Started
+[INFO] 27/Mar/2026 20:27:36 - Android Behaviour Analysis Completed
+[INFO] 27/Mar/2026 20:27:36 - Extracting Emails and URLs from Source Code
+[INFO] 27/Mar/2026 20:27:36 - Email and URL Extraction Completed
+[INFO] 27/Mar/2026 20:27:36 - Extracting String data from APK
+[INFO] 27/Mar/2026 20:27:36 - Extracting String data from Code
+[INFO] 27/Mar/2026 20:27:36 - Extracting String values and entropies from Code
+[INFO] 27/Mar/2026 20:27:36 - Starting Firebase Analysis
+[INFO] 27/Mar/2026 20:27:36 - Looking for Firebase URL(s)
+[INFO] 27/Mar/2026 20:27:36 - No domains found to analyze
+[INFO] 27/Mar/2026 20:27:36 - Saving to Database
+[INFO] 27/Mar/2026 20:27:41 - Fetching data from DB for PDF Report Generation (Android)
+[INFO] 27/Mar/2026 20:27:41 - Analysis is already Done. Fetching data from the DB...
+[INFO] 27/Mar/2026 20:27:41 - Analysis is already Done. Fetching data from the DB...
+[INFO] 27/Mar/2026 20:27:42 - Generating PDF report for android apk
+[INFO] 27/Mar/2026 22:32:06 - MIME Type: application/octet-stream FILE: base.apk
+[INFO] 27/Mar/2026 22:32:06 - Android APK uploaded
+[INFO] 27/Mar/2026 22:32:06 - Scan Hash: 50e1f008d92edbde5a4c3185ff8f9c55
+[INFO] 27/Mar/2026 22:32:06 - Starting Analysis on: base.apk
+[INFO] 27/Mar/2026 22:32:06 - Generating Hashes
+[INFO] 27/Mar/2026 22:32:06 - Extracting APK
+[INFO] 27/Mar/2026 22:32:06 - Unzipping
+[INFO] 27/Mar/2026 22:32:06 - Parsing APK with androguard
+[INFO] 27/Mar/2026 22:32:06 - Extracting APK features using aapt/aapt2
+[INFO] 27/Mar/2026 22:32:06 - Getting Hardcoded Certificates/Keystores
+[INFO] 27/Mar/2026 22:32:06 - Getting AndroidManifest.xml from APK
+[INFO] 27/Mar/2026 22:32:06 - Converting AXML to XML with apktool
+[INFO] 27/Mar/2026 22:32:07 - Parsing AndroidManifest.xml
+[INFO] 27/Mar/2026 22:32:07 - Extracting Manifest Data
+[INFO] 27/Mar/2026 22:32:07 - Manifest Analysis Started
+[INFO] 27/Mar/2026 22:32:07 - Performing Static Analysis on: 黄钻CDK (com.android.admin.hongyan)
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Rishikesh\AppData\Local\Programs\Python\Python313\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishikesh\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 61-62: character maps to <undefined>
+Call stack:
+  File "C:\Users\Rishikesh\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\Rishikesh\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Rishikesh\AppData\Local\Programs\Python\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Rishikesh\AppData\Local\pypoetry\Cache\virtualenvs\mobsf-fcIZTgL0-py3.13\Lib\site-packages\waitress\task.py", line 83, in handler_thread
+    task.service()
+  File "C:\Users\Rishikesh\AppData\Local\pypoetry\Cache\virtualenvs\mobsf-fcIZTgL0-py3.13\Lib\site-packages\waitress\channel.py", line 430, in service
+    task.service()
+  File "C:\Users\Rishikesh\AppData\Local\pypoetry\Cache\virtualenvs\mobsf-fcIZTgL0-py3.13\Lib\site-packages\waitress\task.py", line 167, in service
+    self.execute()
+  File "C:\Users\Rishikesh\AppData\Local\pypoetry\Cache\virtualenvs\mobsf-fcIZTgL0-py3.13\Lib\site-packages\waitress\task.py", line 435, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+  File "C:\Users\Rishikesh\AppData\Local\pypoetry\Cache\virtualenvs\mobsf-fcIZTgL0-py3.13\Lib\site-packages\waitress\proxy_headers.py", line 64, in translate_proxy_headers
+    return app(environ, start_response)
+  File "C:\Users\Rishikesh\AppData\Local\pypoetry\Cache\virtualenvs\mobsf-fcIZTgL0-py3.13\Lib\site-packages\whitenoise\base.py", line 82, in __call__
+    return self.application(environ, start_response)
+  File "C:\Users\Rishikesh\AppData\Local\pypoetry\Cache\virtualenvs\mobsf-fcIZTgL0-py3.13\Lib\site-packages\django\core\handlers\wsgi.py", line 124, in __call__
+    response = self.get_response(request)
+  File "C:\Users\Rishikesh\AppData\Local\pypoetry\Cache\virtualenvs\mobsf-fcIZTgL0-py3.13\Lib\site-packages\django\core\handlers\base.py", line 141, in get_response
+    response = self._middleware_chain(request)
+  File "C:\Users\Rishikesh\AppData\Local\pypoetry\Cache\virtualenvs\mobsf-fcIZTgL0-py3.13\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Rishikesh\AppData\Local\pypoetry\Cache\virtualenvs\mobsf-fcIZTgL0-py3.13\Lib\site-packages\django\utils\deprecation.py", line 309, in __call__
+    response = response or self.get_response(request)
+  File "C:\Users\Rishikesh\AppData\Local\pypoetry\Cache\virtualenvs\mobsf-fcIZTgL0-py3.13\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Rishikesh\AppData\Local\pypoetry\Cache\virtualenvs\mobsf-fcIZTgL0-py3.13\Lib\site-packages\django\utils\deprecation.py", line 309, in __call__
+    response = response or self.get_response(request)
+  File "C:\Users\Rishikesh\AppData\Local\pypoetry\Cache\virtualenvs\mobsf-fcIZTgL0-py3.13\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Rishikesh\AppData\Local\pypoetry\Cache\virtualenvs\mobsf-fcIZTgL0-py3.13\Lib\site-packages\django\utils\deprecation.py", line 309, in __call__
+    response = response or self.get_response(request)
+  File "C:\Users\Rishikesh\AppData\Local\pypoetry\Cache\virtualenvs\mobsf-fcIZTgL0-py3.13\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Rishikesh\AppData\Local\pypoetry\Cache\virtualenvs\mobsf-fcIZTgL0-py3.13\Lib\site-packages\django\utils\deprecation.py", line 309, in __call__
+    response = response or self.get_response(request)
+  File "C:\Users\Rishikesh\AppData\Local\pypoetry\Cache\virtualenvs\mobsf-fcIZTgL0-py3.13\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Rishikesh\AppData\Local\pypoetry\Cache\virtualenvs\mobsf-fcIZTgL0-py3.13\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Rishikesh\Mobile-Security-Framework-MobSF-master\mobsf\MobSF\views\helpers.py", line 133, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Rishikesh\AppData\Local\pypoetry\Cache\virtualenvs\mobsf-fcIZTgL0-py3.13\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Rishikesh\Mobile-Security-Framework-MobSF-master\mobsf\MobSF\views\api\api_static_analysis.py", line 78, in api_scan
+    resp = static_analyzer(request, checksum, True)
+  File "C:\Users\Rishikesh\Mobile-Security-Framework-MobSF-master\mobsf\MobSF\views\authentication.py", line 38, in wrapper
+    return func(request, *args, **kwargs)
+  File "C:\Users\Rishikesh\Mobile-Security-Framework-MobSF-master\mobsf\StaticAnalyzer\views\android\static_analyzer.py", line 113, in static_analyzer
+    return apk_analysis(request, app_dic, rescan, api)
+  File "C:\Users\Rishikesh\Mobile-Security-Framework-MobSF-master\mobsf\StaticAnalyzer\views\android\apk.py", line 279, in apk_analysis
+    context, err = apk_analysis_task(checksum, app_dic, rescan)
+  File "C:\Users\Rishikesh\Mobile-Security-Framework-MobSF-master\mobsf\StaticAnalyzer\views\android\apk.py", line 173, in apk_analysis_task
+    print_scan_subject(app_dic, man_data_dic)  # Populate subject
+  File "C:\Users\Rishikesh\Mobile-Security-Framework-MobSF-master\mobsf\StaticAnalyzer\views\android\apk.py", line 132, in print_scan_subject
+    logger.info(msg)
+Message: 'Performing Static Analysis on: 黄钻CDK (com.android.admin.hongyan)'
+Arguments: ()
+[INFO] 27/Mar/2026 22:32:08 - Fetching Details from Play Store: com.android.admin.hongyan
+[INFO] 27/Mar/2026 22:32:09 - Checking for Malware Permissions
+[INFO] 27/Mar/2026 22:32:09 - Fetching icon path
+[INFO] 27/Mar/2026 22:32:09 - Library Binary Analysis Started
+[INFO] 27/Mar/2026 22:32:09 - Reading Code Signing Certificate
+[INFO] 27/Mar/2026 22:32:09 - Getting Signature Versions
+[INFO] 27/Mar/2026 22:32:09 - Running APKiD 3.0.0
+[INFO] 27/Mar/2026 22:32:11 - Trackers Database is up-to-date
+[INFO] 27/Mar/2026 22:32:11 - Detecting Trackers
+[INFO] 27/Mar/2026 22:32:11 - Decompiling APK to Java with JADX
+[INFO] 27/Mar/2026 22:32:14 - Converting DEX to Smali
+[INFO] 27/Mar/2026 22:32:14 - Converting classes.dex to Smali Code
+[INFO] 27/Mar/2026 22:32:14 - Code Analysis Started on - java_source
+[INFO] 27/Mar/2026 22:32:14 - Reading file contents for SAST
+[INFO] 27/Mar/2026 22:32:14 - Android SBOM Analysis Completed
+[INFO] 27/Mar/2026 22:32:15 - Android SAST Completed
+[INFO] 27/Mar/2026 22:32:15 - Android API Analysis Started
+[INFO] 27/Mar/2026 22:32:16 - Android API Analysis Completed
+[INFO] 27/Mar/2026 22:32:16 - Android Permission Mapping Started
+[INFO] 27/Mar/2026 22:32:17 - Android Permission Mapping Completed
+[INFO] 27/Mar/2026 22:32:17 - Android Behaviour Analysis Started
+[INFO] 27/Mar/2026 22:32:17 - Android Behaviour Analysis Completed
+[INFO] 27/Mar/2026 22:32:17 - Extracting Emails and URLs from Source Code
+[INFO] 27/Mar/2026 22:32:17 - Email and URL Extraction Completed
+[INFO] 27/Mar/2026 22:32:17 - Extracting String data from APK
+[INFO] 27/Mar/2026 22:32:17 - Extracting String data from Code
+[INFO] 27/Mar/2026 22:32:17 - Extracting String values and entropies from Code
+[INFO] 27/Mar/2026 22:32:17 - Starting Firebase Analysis
+[INFO] 27/Mar/2026 22:32:17 - Looking for Firebase URL(s)
+[INFO] 27/Mar/2026 22:32:17 - No domains found to analyze
+[INFO] 27/Mar/2026 22:32:17 - Saving to Database
+[INFO] 27/Mar/2026 22:32:22 - Fetching data from DB for PDF Report Generation (Android)
+[INFO] 27/Mar/2026 22:32:22 - Analysis is already Done. Fetching data from the DB...
+[INFO] 27/Mar/2026 22:32:22 - Analysis is already Done. Fetching data from the DB...
+[INFO] 27/Mar/2026 22:32:22 - Generating PDF report for android apk
+[INFO] 27/Mar/2026 22:56:33 - MIME Type: application/octet-stream FILE: base.apk
+[INFO] 27/Mar/2026 22:56:33 - Android APK uploaded
+[INFO] 27/Mar/2026 22:56:33 - Scan Hash: 7edd790028e87859db62274dd480b7b0
+[INFO] 27/Mar/2026 22:56:33 - Starting Analysis on: base.apk
+[INFO] 27/Mar/2026 22:56:33 - Generating Hashes
+[INFO] 27/Mar/2026 22:56:33 - Extracting APK
+[INFO] 27/Mar/2026 22:56:33 - Unzipping
+[INFO] 27/Mar/2026 22:56:33 - Parsing APK with androguard
+[INFO] 27/Mar/2026 22:56:33 - Extracting APK features using aapt/aapt2
+[INFO] 27/Mar/2026 22:56:34 - Getting Hardcoded Certificates/Keystores
+[INFO] 27/Mar/2026 22:56:34 - Getting AndroidManifest.xml from APK
+[INFO] 27/Mar/2026 22:56:34 - Converting AXML to XML with apktool
+[INFO] 27/Mar/2026 22:56:36 - Parsing AndroidManifest.xml
+[INFO] 27/Mar/2026 22:56:36 - Extracting Manifest Data
+[INFO] 27/Mar/2026 22:56:36 - Manifest Analysis Started
+[INFO] 27/Mar/2026 22:56:36 - Performing Static Analysis on: HK Transport (app.hkTransport)
+[INFO] 27/Mar/2026 22:56:37 - Fetching Details from Play Store: app.hkTransport
+[INFO] 27/Mar/2026 22:56:38 - Checking for Malware Permissions
+[INFO] 27/Mar/2026 22:56:38 - Fetching icon path
+[INFO] 27/Mar/2026 22:56:38 - Library Binary Analysis Started
+[INFO] 27/Mar/2026 22:56:38 - Reading Code Signing Certificate
+[INFO] 27/Mar/2026 22:56:38 - Getting Signature Versions
+[INFO] 27/Mar/2026 22:56:39 - Running APKiD 3.0.0
+[INFO] 27/Mar/2026 22:56:42 - Trackers Database is up-to-date
+[INFO] 27/Mar/2026 22:56:42 - Detecting Trackers
+[INFO] 27/Mar/2026 22:56:43 - Decompiling APK to Java with JADX
+[INFO] 27/Mar/2026 22:56:54 - Converting DEX to Smali
+[INFO] 27/Mar/2026 22:56:54 - Converting classes.dex to Smali Code
+[INFO] 27/Mar/2026 22:56:54 - Code Analysis Started on - java_source
+[INFO] 27/Mar/2026 22:56:55 - Reading file contents for SAST
+[INFO] 27/Mar/2026 22:56:55 - Android SBOM Analysis Completed
+[INFO] 27/Mar/2026 22:56:56 - Android SAST Completed
+[INFO] 27/Mar/2026 22:56:56 - Android API Analysis Started
+[INFO] 27/Mar/2026 22:56:58 - Android API Analysis Completed
+[INFO] 27/Mar/2026 22:56:58 - Android Permission Mapping Started
+[INFO] 27/Mar/2026 22:56:59 - Android Permission Mapping Completed
+[INFO] 27/Mar/2026 22:57:00 - Android Behaviour Analysis Started
+[INFO] 27/Mar/2026 22:57:01 - Android Behaviour Analysis Completed
+[INFO] 27/Mar/2026 22:57:01 - Extracting Emails and URLs from Source Code
+[INFO] 27/Mar/2026 22:57:01 - Email and URL Extraction Completed
+[INFO] 27/Mar/2026 22:57:01 - Extracting String data from APK
+[INFO] 27/Mar/2026 22:57:01 - Extracting String data from Code
+[INFO] 27/Mar/2026 22:57:01 - Extracting String values and entropies from Code
+[INFO] 27/Mar/2026 22:57:03 - Starting Firebase Analysis
+[INFO] 27/Mar/2026 22:57:03 - Looking for Firebase URL(s)
+[INFO] 27/Mar/2026 22:57:03 - No domains found to analyze
+[INFO] 27/Mar/2026 22:57:03 - Saving to Database
+[INFO] 27/Mar/2026 22:57:08 - Fetching data from DB for PDF Report Generation (Android)
+[INFO] 27/Mar/2026 22:57:08 - Analysis is already Done. Fetching data from the DB...
+[INFO] 27/Mar/2026 22:57:08 - Analysis is already Done. Fetching data from the DB...
+[INFO] 27/Mar/2026 22:57:08 - Generating PDF report for android apk
